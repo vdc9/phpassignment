@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="script.js"></script>
+
+   <script type="text/javascript" src="script_2.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+   <h1><center>Wish I Was Here</center></h1>
+
+  <!--CC image, Neues Schloss Schlossplatzspringbrunnen Schlossplatz,  Stuttgart https://upload.wikimedia.org/wikipedia/commons/e/e1/Neues_Schloss_Schlossplatzspringbrunnen_Schlossplatz_Stuttgart_2015_01.jpg --> 
+   <h2>
+   <center>
+     <img src="images/image_top.jpg" alt="Neues Schloss Schlossplatzspringbrunnen Schlossplatz, Stuttgart" style="width:600px; height:400px;">
+   </center>
+   </h2>
+   <br>
+   <br>
+
+    <p> I love plane rides. They end with me seeing somewhere new or returning from a journey to savor the memories of where I've been. Sadly, I cannot travel few weeks or month so I can't see all of the wonders the world has to offer. Until then, here are some of the places I wish I could see. 
+
+    </p>
+
+   <!-- don't need this code
+   <title>Button Magic</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>  
+    --> 
+  
+  <center> 
+  <div class="slideshow">
+
+     <div class="image">
+       <img src="images/HohenzollernCastle.jpg" style="width:600px; height:400px;">
+       <div class="text"><b>Germany</b></div>
+     </div>
+
+     <div class="image">
+       <img src="images/VeniceCanal.jpg" style="width:600pm; height:400px;">
+       <div class="text"><b>Italy</b></div>
+     </div>
+
+     <div class="image">
+       <img src="images/Viennacity.jpg" style="width:600; height:400px;">
+       <div class="text"><b>Austria</b></div>
+     </div>
+
+     <div class="image">
+       <img src="images/lighthouse-marseille-france.jpg" style="width:600px; height:400px;">
+       <div class="text"><b>France</b></div>
+     </div>
+
+     </div> </center>
+
+
+     <br> <!-- button isn't working
+     <button type="button" id="previous" onclick="plusSlides(-1)">Previous</button> 
+     <button type="button" id="next" onclick="plusSlides(1)">Next</button> -->     
+     <!--trying this one from w3schools-->
+     <center>
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </center>     
+
+    </p>
+
+    <div class="countries">
+      <ol> 
+    <!-- CC image, Hohenzollern Castle, https://www.flickr.com/photos/trodel/3801987960-->
+      <li>Stuttgart, Germany</li>
+    <!--CC image, canal in Venice, Italy, https://pixabay.com/p-1209808/?no_redirect  --> 
+      <li>Venice, Italy</li>
+    <!-- CC image, Vienna in the evening, https://pixabay.com/p-933500/?no_redirect -->
+      <li>Vienna, Austria</li>
+    <!-- CC from https://www.goodfreephotos.com/albums/france/marseille/lighthouse-under-sky-and-clouds-marseille-france.jpg, Lighthouse Under sky and clouds -->
+      <li>Marseille, France</li>
+      </ol>
+    </div>
+  
+</body>
+</html>

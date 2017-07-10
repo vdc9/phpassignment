@@ -1,0 +1,48 @@
+   body{
+    background-color: #C6E2FF;
+   }
+
+
+  /*title*/
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;   
+    }
+     
+/*Top image*/
+
+  img {
+      display:block;
+      margin:auto;
+      width:40%;
+      border-style: groove;
+      border-width: 5px;
+      }
+
+/*These will be the slideshow pictures*/
+
+  .image {
+    max-width: 1000px;
+    position: center;
+    margin: (40px, 20px, 40px, 20px)
+    font-size: 20px 
+
+   } 
+
+/*general text edits*/
+
+  p, ol {
+    font-size: 20px;
+  }
+
+/*button edits*/ 
+  .prev, .next {
+
+    size: 30px;
+    
+  }
+  
+  
+</body>
+</html>
